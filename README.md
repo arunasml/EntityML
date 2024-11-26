@@ -1,10 +1,10 @@
 # EntityML
 
-Generate synthetic data by using scikit-learn's make_regression and make_classification methods. Generated dataset will be used for the white paper focused on Entity based scaling for ML Applications. 
+Submitted Paper in the Industrial Track of ICDE 2025 titled: Entity-based System Design for Scaling Machine Learning Applications
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Boilerplate code for reproducibility
 
 ## Getting Started
 
