@@ -1,0 +1,34 @@
+direction: right
+
+title: {
+  label: Entity scaling
+  near: bottom-center
+  shape: text
+  style.font-size: 40
+  style.underline: true
+}
+
+# Input data with multiple entities -> per-entity execution
+# per-entity execution -> data/score output
+# per-entity execution -> sample smaller set of input (per-entity) data -> per-entity execution
+
+input data: {
+    per-entity partitioned: {
+        icon: https://icons.terrastruct.com/essentials/119-database.svg
+    }
+}
+
+horizontal scaling: {
+    per-entity execution: {
+        ML model: {
+            icon: https://icons.terrastruct.com/dev/python.svg
+        }
+    }
+}
+
+vertical scaling: {
+    downsample input data
+}
+
+input data.per-entity partitioned -> horizontal scaling.per-entity execution
+horizontal scaling.per-entity execution-> vertical scaling.downsample input data -> horizontal scaling.per-entity execution

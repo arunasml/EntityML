@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "synthetic-data-generator"
+version = "0.1.0"
+description = ""
+authors = ["Vivek Kumar Jain <vivekkumar.jain@asml.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+typer = "^0.12.5"
+deltalake = "^0.19.1"
+matplotlib = "^3.9.2"
+pydantic = "^2.8.2"
+pydantic-settings = "^2.4.0"
+ipykernel = "^6.29.5"
+ray = {extras = ["data", "serve", "train", "tune"], version = "^2.36.0"}
+tqdm = "^4.66.5"
+ipywidgets = "^8.1.5"
+confluent-kafka = "^2.5.3"
+TPOT = "^0.12.2"
+polars = "^1.9.0"
+flaml = {extras = ["automl"], version = "^2.3.1"}
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
