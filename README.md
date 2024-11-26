@@ -27,7 +27,7 @@ poetry env info --path
 ```
 * In case windows Copy path and append \Scripts\active for example
 ```
- C:\Users\vivjain\poetryvenvs\synthetic-data-generator-BBQ6GFCF-py3.10\Scripts\activate
+ C:\Users\username\poetryvenvs\EntityML-BBQ6GFCF-py3.10\Scripts\activate
 ```
 * For wsl and linux 
 ```
@@ -39,18 +39,21 @@ poetry env info --path
 
 * Check all the options 
 ```
- python .\synthetic_data_generator\app.py --help
+ python .\EntityML\app.py --help
 ```
 
 * Generate data (by default it creates data for 20 entities)
 ```
-python .\synthetic_data_generator\app.py generate-data --gen-type regression --sink-type delta
+python .\EntityML\app.py generate-data --gen-type regression --sink-type delta
 ```
 
 
 
 ## Authors
 Vivek Kumar Jain <vivekkumar.jain@asml.com>
+Sheng-Yi Hsu <sheng-yi.hsu@asml.com>
+Akshay Verma <akshay.verma@asml.com>
+Arunabha Choudhury <arunabha.choudhury@asml.com>
 
 
 ## Version History
